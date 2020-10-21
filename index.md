@@ -12,7 +12,7 @@ While working through Machine Learning projects, I will follow a slightly adjust
 
 As with all coding posts, the full jupyter notebook can be found in my github repo below:
 
-https://github.com/JohnnyEnglish91/Projects/tree/main/Kaggle/Titanic
+<https://github.com/John-Land/Projects/tree/main/Kaggle/Titanic>
 
 ## 1. Look at the big picture
 
@@ -25,7 +25,7 @@ In other words, given data on the passengers, can we predict if a given passenge
 
 ## 2. Get the data
 
-The data is provided on the Kaggle challenge page. https://www.kaggle.com/c/titanic/data
+The data is provided on the Kaggle challenge page. <https://www.kaggle.com/c/titanic/data>
 
 We will first import the data and check for any missing values and some basic information.
 
@@ -1157,7 +1157,6 @@ As this is a classification task, we will take into considering below models.
 As we have no labels on the testing data, we will use the training data with 5 fold cross validation, to get an estimation of the out of sample accuracy. The model with the highest mean accuracy on all cross validation sets will be selected for prediction and submission to kaggle.
 
 
-
 ```python
 from sklearn.dummy import DummyClassifier
 
@@ -1451,8 +1450,3 @@ print("Your submission was successfully saved!")
 
     Your submission was successfully saved!
     
-
-
-```python
-
-```
